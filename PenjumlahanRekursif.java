@@ -1,6 +1,6 @@
 public class PenjumlahanRekursif {
     public static int jumlahRekursif(int n) {
-        if (n == 1) return 1;
+        if (n == 1) return 1; 
         return n + jumlahRekursif(n - 1);
     }
 
